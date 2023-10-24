@@ -1,0 +1,107 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin-bottom: 200px;
+}
+
+.navigation a {
+    margin-right: 10px;
+}
+
+.divider {
+    width: 50%;
+    border: 3px solid gray;
+    margin: 0 auto;
+}
+
+.about .about__title {
+    color: #996633;
+    text-align: center;
+}
+
+.about .about__description {
+    width: 50%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.special .special__title {
+    color: #996633;
+    text-align: center;
+}
+
+.first-list__title {
+    font-weight: bold;
+}
+
+.first-list ul {
+    margin-left: 40px;
+    color: blue;
+    list-style-type: circle;
+}
+
+.first-list__img img {
+    width: 150px;
+    height: 150px;
+}
+
+.second-list__title {
+    font-weight: bold;
+}
+
+.second-list ol {
+    margin-left: 40px;
+    list-style-type: upper-roman;
+}
+
+.second-list__img img {
+    width: 300px;
+    height: 300px;
+}
+
+.menu .menu__title {
+ text-align: center;
+ color: #996633;
+}
+
+.menu .menu__table {
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.menu__table th,
+.menu__table td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.menu__table .Traditional-Coffee {
+    background-image: url(images/chilling-cafe-12.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu__table .Expresso {
+    background-image: url(images/chilling-cafe-13.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
